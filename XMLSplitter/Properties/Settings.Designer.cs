@@ -34,5 +34,17 @@ namespace XMLSplitter.Properties {
                 this["xmlFilePath"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string defaultSaveLocation {
+            get {
+                return ((string)(this["defaultSaveLocation"]));
+            }
+            set {
+                this["defaultSaveLocation"] = value;
+            }
+        }
     }
 }
